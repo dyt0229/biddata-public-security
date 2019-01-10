@@ -7,6 +7,10 @@ body {
     background: url(../imgs/bigdata/index_bg.png) no-repeat top center;
     -moz-background-size: cover;
     background-size: cover;
+    /* background-size: 100% 100%; */
+}
+html {
+    font-size: 26.67vw;
 }
 
 .main{
@@ -20,7 +24,8 @@ body {
 .mainLeft{
     width:27.67%;
     background: url(../imgs/bigdata/line_img.png) no-repeat top right;
-    padding:5px 17px;
+    /* padding:5px 17px; */
+    padding:.36% 1.24%;
     box-sizing: border-box;
 }
 .mainMid{
@@ -30,37 +35,52 @@ body {
 .mainRight{
     width: 27.67%;
     background: url(../imgs/bigdata/line_img.png) no-repeat top left;
-    padding:5px 17px;
+    /* padding:5px 17px; */
+    padding:.36% 1.24%;
     box-sizing: border-box;
 }
 .leftTop{
     width: 100%;
-    height: 124px;
+    /* height: 124px; */
+    /* height: 18.7%; */
+    height: .335rem;
     background: url(../imgs/bigdata/border_bg01.png) no-repeat center;
-    background-size: cover;
-    padding-top: 12px;
+    background-size: 100% 100%;
+    /* padding-top: 12px; */
+    /* padding-top: 4.5%; */
+    padding-top: 5%;
     box-sizing: border-box;
-    margin-bottom: 8px;
+    /* margin-bottom: 8px; */
+    margin-bottom: 2%;
 }
 .leftTit{
+    
     width: 100%;
-    height: 26px;
+    /* height: 26px; */
+    height: 13%;
     background: url(../imgs/bigdata/title_bg01.png) no-repeat center;
-    background-size: 33%;
-    font-size: 12px;
+    background-size: 35%;
+    /* font-size: 12px; */
+    font-size: .035rem;
     color:#1794ea;
     text-shadow: 2px 0px 2px #212da9;
     text-align: center;
-    line-height: 26px;
+    /* line-height: 26px; */
+    line-height: 100%;
     font-weight: 600;
     
 }
 .leftTop p{
-    font-size: 30px;
+    margin-top: 8%;
+    height:40%; 
+    /* line-height: 86px; */
+    line-height: 100%;
+    /* font-size: 32px; */
+    font-size: .09rem;
     color: white;
-    font-weight: 900;
+    font-weight: 500;
     text-align: center;
-    line-height: 86px;
+    
 }
 .subList{
     
@@ -69,7 +89,8 @@ body {
     width: 100%;
     height: 30px;
     background: url(../imgs/bigdata/box_title.png) no-repeat center;
-    background-size: cover;
+    /* background-size: cover; */
+    background-size: 100%;
     /* text-align: center; */
     text-indent: 28px;
     font-size: 12px;
@@ -79,7 +100,8 @@ body {
 }
 .subCont1{
     width: 100%;
-    height: 223px;
+    /* height: 223px; */
+    height: .59rem;
 }
 .subCont2{
     width: 100%;
@@ -96,10 +118,12 @@ body {
     border-left: 1px solid #0e94ea;
 }
 .record table tr{
-    height: 56px;
+    /* height: 56px; */
+    height: .145rem;
 }
 .record table tr:nth-child(1){
-    height: 28px;
+    /* height: 28px; */
+    height: .08rem;
     background: #114e7b;
     opacity: .9;
 }
@@ -126,11 +150,15 @@ body {
     margin-left: 18%;
 }
 .midTop h2{
-    font-size: 26px;
+    /* font-size: 26px; */
+    font-size: .08rem;
     color: #cdddf7;
-    line-height: 60px;
-    height: 60px;
-    margin-left: 20px;
+    /* line-height: 60px; */
+    line-height:.2rem;
+    /* height: 60px; */
+    height: .2rem;
+    /* margin-left: 20px; */
+    margin-left: .07rem;
     float: left;
     text-shadow: 1px 0 1px #98d1f7,1px 0 1px #142087;
 }
@@ -140,73 +168,97 @@ body {
     width: 100%;
     height: auto;
     display: flex;
-    padding:13px;
+    /* padding:13px; */
+    padding:.01rem;
     box-sizing: border-box;
 }
 .time{
     width:50%;
-    height: 80px;
+    /* height: 80px; */
+    height: .22rem;
     box-sizing: border-box;
     border:1px solid #0e94ea;
     display: flex;
 }
 .timeLeft{
-    width:50%;
+    width:49%;
 }
 .timeLeft h3{
-    font-size: 30px;
+    /* font-size: 30px; */
+    font-size: .08rem;
     color: #cdddf7;
     text-align: center;
-    line-height: 32px;
+    /* line-height: 32px; */
+    line-height: .1rem;
     margin-top: 10px;
 }
 .timeLeft p{
-    font-size: 12px;
+    /* font-size: 12px; */
+    font-size: .01rem;
     color: #cdddf7;
     text-align: center;
-    line-height: 18px;
+    /* line-height: 18px; */
+    line-height: .018rem;
 }
 .timeLeft p b{
     font-weight: normal;
 }
 .timeLeft p em{
     font-style: normal;
-    margin-left: 10px;
+    /* margin-left: 10px; */
+    margin-left: .01rem;
 }
 .timeLeft p span{
-    margin-left: 10px;
+    /* margin-left: 10px; */
+    margin-left: 5%;
 }
 .timeRight img{
-    width: 63px;
-    margin-left: 10px;
-    margin-top:16px;
+    /* width: 63px; */
+    width: .18rem;
+    /* margin-left: 10px; */
+    margin-left: .02rem;
+    /* margin-top:16px; */
+    margin-top:10%;
     float: left;
 }
 .timeTxt{
     float: left;
-    font-size: 12px;
+    /* font-size: 12px; */
+    font-size: .025rem;
     color: #cdddf7;
-    margin-top: 10px;
-    line-height: 18px;
+    /* margin-top: 10px; */
+    margin-top: .04rem;
+    /* line-height: 18px; */
+    line-height: .05rem;
+    
+}
+.timeTxt p{
+    width: .2rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .timeTxt p:nth-child(1){
     color: #fff;
 }
 .timeLine{
     width:2px;
-    height: 46px;
+    /* height: 46px; */
+    height: .15rem;
     background: white;
     margin:auto 0;
 }
 .level{
     width: 50%;
     background: url(../imgs/bigdata/line_bg.png) no-repeat  14px 0;
-    padding-left: 38px;
+    /* padding-left: 38px; */
+    padding-left: .11rem;
     box-sizing: border-box;
     padding-top: 16px;
     line-height: 17px;
     font-weight: 600;
-    font-size: 12px;
+    /* font-size: 12px; */
+    font-size: .01rem;
 }
 .level p:nth-child(1){
     color: #fff121;
@@ -224,9 +276,11 @@ body {
 /* mapBox---- */
 .mapBox{
     width: 100%;
-    height: 532px;
+    /* height: 532px; */
+    height: 1.45rem;
     box-sizing: border-box;
-    padding:42px 32px;
+    /* padding:42px 32px; */
+    padding:.07rem;
     
 }
 #mapCont{
@@ -239,7 +293,8 @@ body {
 /* subCont3--- */
 .subCont3{
     width:100%;
-    height: 278px;
+    /* height: 278px; */
+    height: .71rem;
     position: relative;
 }
 .subCont3 p{
@@ -251,11 +306,13 @@ body {
 }
 .subCont4{
     width:100%;
-    height: 127px;
+    /* height: 127px; */
+    height: .372rem;
 }
 .subCont5{
     width:100%;
-    height: 176px;
+    /* height: 176px; */
+    height: .472rem;
 }
 
 #analyze{
